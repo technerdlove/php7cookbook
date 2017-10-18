@@ -2,7 +2,7 @@
 
 # Use curl to pull files from GitHub and store in a new file root tmp folder
 # Don't include .sql extension in the name of the new file, because it just gets chopped off during the curl process.
-# This script could probably be optimized for performance, but that's a to-do.  This shows how it gets done pretty clearly, while also doing it.
+# This script should be optimized for efficiency, but that's a to-do.  This shows how it gets done pretty clearly, while also doing it.
 echo "Create sql files in root tmp folder via curl"
 
 curl -o /tmp/PART-1-of-15-values-for-test-database https://raw.githubusercontent.com/technerdlove/php7cookbook/master/Module-1-Test-Database-files/PART-1-of-15-values-for-test-database-from-Module-1.sql
